@@ -87,3 +87,20 @@
     background-color: $warning-color;
   }
 }
+
+.subject {
+  cursor: pointer;
+  &:hover {
+    background-color: $warning-color;
+  }
+  .body {
+    display: block;
+    margin-top: 20px;
+    &.d_none {
+      display: none;
+    }
+  }
+  &.checked {
+    background-color: $warning-color;
+  }
+}
